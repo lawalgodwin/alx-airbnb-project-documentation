@@ -13,11 +13,11 @@ The backend for the Airbnb Clone must enable key features that align with the fu
 
 1. **User Management**
 - User Registration:
-    - Allow users to sign up as guests or hosts.
-    - Use secure authentication methods like JWT (JSON Web Tokens).
+    - Allow users to sign up as **guests** or **hosts**.
+    - Use secure authentication methods like **JWT (JSON Web Tokens)**.
 - User Login and Authentication:
     - Implement login via email and password.
-    - Include OAuth options (e.g., Google, Facebook).
+    - Include **OAuth** options (e.g., Google, Facebook).
 - Profile Management:
     - Enable users to update their profiles, including profile photos, contact info, and preferences.
 2. **Property Listings Management**
@@ -60,9 +60,9 @@ The backend for the Airbnb Clone must enable key features that align with the fu
     - Listings
     - Bookings
     - Payments
-### 🛠️ Technical Requirements
+    ### 🛠️ Technical Requirements
 1. **Database Management**
-- Use a relational database such as PostgreSQL or MySQL.
+- Use a relational database such as **PostgreSQL** or **MySQL**.
     Required tables:
     - Users (guests and hosts)
     - Properties
@@ -70,26 +70,26 @@ The backend for the Airbnb Clone must enable key features that align with the fu
     - Reviews
     - Payments
 2. **API Development**
-- Use RESTful APIs to expose backend functionalities to the frontend.
+- Use **RESTful APIs** to expose backend functionalities to the frontend.
 - Include proper HTTP methods and status codes for:
     - GET (retrieve data)
     - POST (create data)
     - PUT/PATCH (update data)
     - DELETE (remove data)
-- Use GraphQL for complex data fetching scenarios (optional but recommended).
+- Use **GraphQL** for complex data fetching scenarios (optional but recommended).
 3. **Authentication and Authorization**
-- Use JWT for secure user sessions.
+- Use **JWT** for secure user sessions.
 - Implement role-based access control (RBAC) to differentiate permissions between:
     - Guests
     - Hosts
     - Admins
-4. **File Storage (Scenario based)**
-- Store property images and user profile photos in cloud storage solutions such as AWS S3 or Cloudinary. For implementation, we will use file storage
+4. **File Storage** (Scenario based)
+- Store property images and user profile photos in cloud storage solutions such as **AWS S3** or **Cloudinary**. For implementation, we will use file storage
 5. **Third-Party Services**
 - Use email services like SendGrid or Mailgun for email notifications.
 6. **Error Handling and Logging**
 - Implement global error handling for APIs.
-### 🚀 Non-Functional Requirements
+    ### 🚀 Non-Functional Requirements
 1. **Scalability**
     - Use a modular architecture to ensure the app scales easily as traffic increases.
     - Enable horizontal scaling using load balancers.
@@ -97,10 +97,10 @@ The backend for the Airbnb Clone must enable key features that align with the fu
     - Secure sensitive data (e.g., passwords, payment information) using encryption.
     - Implement firewalls and rate limiting to prevent malicious activities.
 3. **Performance Optimization**
-    - Use caching tools like Redis to improve response times for frequently accessed data (e.g., search results).
+    - Use **caching** tools like Redis to improve response times for frequently accessed data (e.g., search results).
     - Optimize database queries to reduce server load.
 4. **Testing**
-    - Implement unit and integration tests using frameworks like pytest .
+    - Implement unit and integration tests using frameworks like **pytest** .
     -   Include automated API testing to ensure endpoints function as expected.
 All Credits go to ALX Africa Bankend ProDev, All rights reserved.
 
