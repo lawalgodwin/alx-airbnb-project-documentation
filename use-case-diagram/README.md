@@ -2,7 +2,7 @@
 
 ### What is a Use Case Diagram
 
-A Use Case Diagram is a UML(Unified Modeling Diagram) used by professional software engineers to communicate how a system(Application) functions on a high level.
+A Use Case Diagram is a UML(Unified Modeling Language) Diagram used by professional software engineers to communicate how a system(Application) functions on a high level.
 The basic components of a Use Case Diagram are:
 1. The system and its functionalities
 2. Actors - An actor could be human user or external system that interacts with our system
