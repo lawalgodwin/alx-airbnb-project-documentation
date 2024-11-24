@@ -1,4 +1,3 @@
-```markdown
 # Airbnb Clone Backend - Requirement Specifications
 
 ## 1. **User Authentication**
@@ -112,6 +111,3 @@
 - **Concurrency:** Ensure the system handles up to 100 concurrent booking requests.
 - **Validation Time:** Date validation must complete within 50ms.
 - **Scalability:** Support up to 1,000 bookings per day.
-
----
-```
